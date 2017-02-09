@@ -2,7 +2,7 @@
 Copyright (c) 2017, allwinnertech.com
 All rights reserved.
 
-文件名称:add_mark.h
+文件名称:gb2312toBMP.h
 文件标识:
 摘    要:将gb2312编码文字转换成bmp图片 
 
@@ -201,9 +201,9 @@ void toBMPdata(int _datatype, unsigned char *_data_p, int _piexlsize, int _fonth
 // {
 //     int i,j;
 //     int count = 0;
-//     for(i=0;i<16;i++) 
+//     for(i=0;i<16;i++)  //设置行
 //     {
-//         for(j=0; j<8; j++)
+//         for(j=0; j<8; j++) //设置列
 //         {
 //             if( *(data+count/8) & 0x80 )
 //             {
