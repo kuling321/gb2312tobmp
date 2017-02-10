@@ -9,7 +9,7 @@ cd gb2312tobmp
 
 make
 
-./a  //运行demo finsh后，图片保存在/tmp/bmp.bmp。
+./a    #运行demo finsh后，图片保存在/tmp/bmp.bmp。
 
 
 # 函数介绍
